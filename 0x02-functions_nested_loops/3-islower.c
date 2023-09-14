@@ -9,9 +9,13 @@
 
 int _islower(int c)
 {
-	if (c >= 97 && c < 123)
+	if (c >= 'a' && c <= 'z')
 	{
 		_putchar(49);
+	}
+	if (c < 'a')
+	{
+		_putchar(48);
 	}
 	else
 	{
