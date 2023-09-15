@@ -18,7 +18,7 @@ int print_last_digit(int lastOne)
 
 	mod = lastOne % 10;
 
-	_putchar(mod);
+	_putchar(mod + '0');
 
 	return (mod);
 }
