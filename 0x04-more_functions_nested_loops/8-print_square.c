@@ -2,8 +2,9 @@
 
 /**
  * print_square - function that prints a square, followed by a new line
- * @i: rows in the square
- * @j: the # being printed, where # in a row equals
+ * @size: size of the square
+ * i: rows in the square
+ * j: the # being printed, where # in a row equals
  * the # in the columns
  */
 
